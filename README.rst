@@ -1,0 +1,1 @@
+Kumo stack for Scrapy
