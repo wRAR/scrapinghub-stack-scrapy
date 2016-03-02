@@ -5,19 +5,17 @@ ARG APT_PROXY
 ONBUILD ENV PIP_TRUSTED_HOST=$PIP_TRUSTED_HOST PIP_INDEX_URL=$PIP_INDEX_URL
 ONBUILD RUN test -n $APT_PROXY && echo 'Acquire::http::Proxy \"$APT_PROXY\";' >/etc/apt/apt.conf.d/proxy
 
-RUN sed 's/main$/main universe/' -i /etc/apt/sources.list && \
-    apt-get update -qq && \
+RUN apt-get update -qq && \
     apt-get install -qy \
         netbase ca-certificates apt-transport-https \
-        build-essential python python-dev \
+        build-essential locales \
         libxml2-dev libssl-dev libxslt1-dev \
         libmysqlclient-dev \
         libpq-dev \
         libevent-dev \
         libffi-dev libssl-dev \
         libpcre3-dev libz-dev \
-        libjpeg8-dev \
-        telnet vim htop strace ltrace iputils-ping curl wget lsof git libdb4.8-dev sudo \
+        telnet vim htop strace ltrace iputils-ping curl wget lsof git sudo \
         && \
     rm -rf /var/lib/apt/lists
 
