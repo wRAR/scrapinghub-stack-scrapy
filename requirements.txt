@@ -19,4 +19,4 @@ https://github.com/scrapy-plugins/scrapy-dotpersistence/archive/4f65aaa.zip#egg=
 https://github.com/scrapy-plugins/scrapy-pagestorage/archive/11442e1.zip#egg=scrapy-pagestorage
 
 # Scrapinghub Kumo contract
-https://github.com/scrapinghub/scrapinghub-entrypoint-scrapy/archive/b2c9489.zip#egg=scrapinghub-entrypoint-scrapy
+https://github.com/scrapinghub/scrapinghub-entrypoint-scrapy/archive/6fe809a.zip#egg=scrapinghub-entrypoint-scrapy
