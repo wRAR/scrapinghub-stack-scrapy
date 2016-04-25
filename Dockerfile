@@ -16,8 +16,8 @@ RUN apt-get update -qq && \
         libffi-dev libssl-dev \
         libpcre3-dev libz-dev \
         telnet vim htop strace ltrace iputils-ping curl wget lsof git sudo \
-        && \
-    rm -rf /var/lib/apt/lists
+# http://unix.stackexchange.com/questions/195975/cannot-force-remove-directory-in-docker-build
+#        && rm -rf /var/lib/apt/lists
 
 # TERM needs to be set here for exec environments
 # PIP_TIMEOUT so installation doesn't hang forever
