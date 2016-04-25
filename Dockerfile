@@ -35,4 +35,3 @@ COPY requirements-base.txt /
 RUN pip install --no-cache-dir -r requirements-base.txt
 COPY requirements.txt /
 RUN pip install --no-cache-dir -r requirements.txt
-RUN pip install --no-cache-dir Scrapy==1.1.0rc3
