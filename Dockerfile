@@ -19,15 +19,9 @@ RUN apt-get update -qq && \
         && \
     rm -rf /var/lib/apt/lists
 
-# Needed for python to consider stdin/stdout as utf8
-RUN locale-gen en_US.UTF-8
 # TERM needs to be set here for exec environments
-# LANG for locale
 # PIP_TIMEOUT so installation doesn't hang forever
-# PYTHONWARNINGS https://urllib3.readthedocs.org/en/latest/security.html#disabling-warnings
-ENV TERM=xterm \
-    LANG=en_US.UTF-8 \
-    PIP_TIMEOUT=180
+ENV TERM=xterm PIP_TIMEOUT=180
 
 COPY requirements-base-pre.txt /
 RUN pip install --no-cache-dir -r requirements-base-pre.txt
