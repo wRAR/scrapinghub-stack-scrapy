@@ -1,2 +1,0 @@
-# numpy has to be installed before scikit-learn or the second won't build
-numpy==1.11.0
