@@ -27,8 +27,9 @@ scrapinghub-entrypoint-scrapy==0.5.0
 scrapy-crawlera==1.1.0
 scrapy-dotpersistence==0.2.0
 scrapy-pagestorage==0.1.0
-Scrapy==1.1.0rc3          # via scrapinghub-entrypoint-scrapy, scrapy-pagestorage
-scrapyjs==0.2
+scrapy-splash==0.6
+Scrapy==1.1.0rc3          # via scrapinghub-entrypoint-scrapy, scrapy-pagestorage, scrapylib
+scrapylib==1.7.0
 service-identity==16.0.0  # via scrapy
 six==1.10.0               # via cryptography, parsel, pyopenssl, retrying, scrapy, w3lib
 Twisted==16.1.1           # via scrapy
