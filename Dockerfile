@@ -24,6 +24,7 @@ RUN apt-get update -qq && \
         libffi-dev \
         libpcre3-dev \
         libz-dev \
+        unixodbc unixodbc-dev \
         telnet vim htop iputils-ping curl wget lsof git sudo \
         ghostscript
 # http://unix.stackexchange.com/questions/195975/cannot-force-remove-directory-in-docker-build
