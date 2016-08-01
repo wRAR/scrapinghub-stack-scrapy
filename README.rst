@@ -2,7 +2,7 @@
 scrapinghub-stack-scrapy
 ========================
 
-Software stack with latest Scrapy and updated deps.
+Software stack based on Python 3 with latest Scrapy and updated deps.
 
 Versioning is done in the following manner:
 
