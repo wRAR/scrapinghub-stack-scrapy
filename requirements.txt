@@ -58,7 +58,7 @@ scrapylib==1.7.1
 service-identity==16.0.0  # via scrapy
 six==1.10.0
 slackclient==1.0.5
-twisted==16.6.0           # via scrapy
+twisted==17.9.0           # via scrapy
 unidecode==0.4.20         # via python-slugify
 w3lib==1.17.0             # via parsel, scrapy
 websocket-client==0.40.0  # via slackclient
