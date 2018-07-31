@@ -29,7 +29,7 @@ slackclient
 python-slugify
 # required by Images addon
 boto
-pillow
+pillow>=5.1.0
 
 # Requirements due to known bugs in dependencies
 Twisted >= 17.1.0
