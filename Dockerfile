@@ -1,4 +1,4 @@
-FROM python:3.7-jessie
+FROM python:3.7-stretch
 ARG PIP_INDEX_URL
 ARG PIP_TRUSTED_HOST
 ARG APT_PROXY
