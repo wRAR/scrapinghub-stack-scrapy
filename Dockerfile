@@ -1,4 +1,4 @@
-FROM python:3.6-jessie
+FROM python:3.7-stretch
 ARG PIP_INDEX_URL
 ARG PIP_TRUSTED_HOST
 ARG APT_PROXY
@@ -19,7 +19,7 @@ RUN apt-get update -qq && \
         libxml2-dev \
         libssl-dev \
         libxslt1-dev \
-        libmysqlclient-dev \
+        default-libmysqlclient-dev \
         libpq-dev \
         libevent-dev \
         libffi-dev \
