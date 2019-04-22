@@ -19,7 +19,7 @@ RUN apt-get update -qq && \
         libxml2-dev \
         libssl-dev \
         libxslt1-dev \
-        libmysqlclient-dev \
+        default-libmysqlclient-dev \
         libpq-dev \
         libevent-dev \
         libffi-dev \
