@@ -1,4 +1,4 @@
-FROM python:3.8-buster
+FROM python:3.8-slim-buster
 ARG PIP_INDEX_URL
 ARG PIP_TRUSTED_HOST
 ARG APT_PROXY
@@ -16,14 +16,16 @@ RUN apt-get update -qq && \
     apt-get install -qy \
         netbase ca-certificates apt-transport-https \
         build-essential locales \
-        libxml2-dev \
-        libssl-dev \
-        libxslt1-dev \
         default-libmysqlclient-dev \
-        libpq-dev \
+        libdb-dev \
         libevent-dev \
         libffi-dev \
+        libjpeg-dev \
         libpcre3-dev \
+        libpq-dev \
+        libssl-dev \
+        libxml2-dev \
+        libxslt1-dev \
         libz-dev \
         unixodbc unixodbc-dev \
         telnet vim htop iputils-ping curl wget lsof git sudo \
