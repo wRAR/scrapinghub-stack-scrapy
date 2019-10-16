@@ -18,12 +18,16 @@ RUN apt-get update -qq && \
         build-essential locales \
         default-libmysqlclient-dev \
         imagemagick \
+        libbz2-dev \
         libdb-dev \
         libevent-dev \
         libffi-dev \
         libjpeg-dev \
+        liblzma-dev \
         libpcre3-dev \
+        libpng-dev \
         libpq-dev \
+        libsqlite3-dev \
         libssl-dev \
         libxml2-dev \
         libxslt1-dev \
