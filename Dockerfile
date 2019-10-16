@@ -17,6 +17,7 @@ RUN apt-get update -qq && \
         netbase ca-certificates apt-transport-https \
         build-essential locales \
         default-libmysqlclient-dev \
+        imagemagick \
         libdb-dev \
         libevent-dev \
         libffi-dev \
