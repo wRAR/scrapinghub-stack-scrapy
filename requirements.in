@@ -24,12 +24,13 @@ scrapy-splitvariants
 
 # required by Monitoring addon
 spidermon[monitoring,validation]
-
 # required by Monkeylearn addon
 monkeylearn
 # required by Images addon
 boto
 pillow>=5.1.0
+# pre-install boto3 compatible with botocore
+boto3
 
 # Requirements due to known bugs in dependencies
 Twisted >= 17.1.0
