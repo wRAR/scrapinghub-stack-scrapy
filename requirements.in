@@ -12,7 +12,6 @@ scrapinghub-entrypoint-scrapy
 scrapinghub==2.3.0
 
 # scrapy plugins
-scrapylib
 scrapy-splash
 scrapy-crawlera
 scrapy-deltafetch
