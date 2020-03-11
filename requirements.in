@@ -3,16 +3,15 @@
 #   pip-compile --output-file requirements.txt requirements.in
 #
 
-Scrapy==1.8.0
+Scrapy==2.0.0
 
 # scrapinghub glue
 scrapinghub-entrypoint-scrapy
 
 # official python client
-scrapinghub==2.2.1
+scrapinghub==2.3.0
 
 # scrapy plugins
-scrapylib
 scrapy-splash
 scrapy-crawlera
 scrapy-deltafetch
