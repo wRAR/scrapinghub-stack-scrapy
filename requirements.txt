@@ -53,7 +53,7 @@ rsa==3.4.2                # via awscli
 s3transfer==0.3.3         # via awscli, boto3
 schematics==2.1.0         # via spidermon
 scrapinghub-entrypoint-scrapy==0.12.0  # via -r requirements.in, scrapy-pagestorage
-scrapinghub==2.3.0        # via -r requirements.in, scrapinghub-entrypoint-scrapy, scrapy-pagestorage
+scrapinghub==2.3.1        # via -r requirements.in, scrapinghub-entrypoint-scrapy, scrapy-pagestorage
 scrapy-crawlera==1.6.0    # via -r requirements.in
 scrapy-deltafetch==1.2.1  # via -r requirements.in
 scrapy-dotpersistence==0.3.0  # via -r requirements.in
