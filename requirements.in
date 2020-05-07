@@ -3,7 +3,7 @@
 #   pip-compile --output-file requirements.txt requirements.in
 #
 
-Scrapy==2.0.1
+Scrapy==2.1.0
 
 # scrapinghub glue
 scrapinghub-entrypoint-scrapy
