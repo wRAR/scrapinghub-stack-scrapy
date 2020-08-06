@@ -17,13 +17,14 @@ cffi==1.14.1              # via cryptography
 chardet==3.0.4            # via requests
 colorama==0.4.3           # via awscli
 constantly==15.1.0        # via twisted
-cryptography==2.9.2       # via pyopenssl, scrapy, service-identity
+cryptography==3.0         # via pyopenssl, scrapy, service-identity
 cssselect==1.1.0          # via parsel, premailer, scrapy
 cssutils==1.0.2           # via premailer
 docutils==0.15.2          # via awscli, botocore
 hyperlink==20.0.1         # via twisted
 idna==2.10                # via hyperlink, jsonschema, requests
 incremental==17.5.0       # via twisted
+itemadapter==0.1.0        # via scrapy
 jinja2==2.11.2            # via -r requirements.in, spidermon
 jmespath==0.10.0          # via boto3, botocore
 jsonpointer==2.0          # via jsonschema
@@ -62,7 +63,7 @@ scrapy-pagestorage==0.3.1  # via -r requirements.in
 scrapy-querycleaner==1.0.0  # via -r requirements.in
 scrapy-splash==0.7.2      # via -r requirements.in
 scrapy-splitvariants==1.1.0  # via -r requirements.in
-scrapy==2.1.0             # via -r requirements.in, scrapinghub-entrypoint-scrapy, scrapy-crawlera, scrapy-deltafetch, scrapy-dotpersistence, scrapy-magicfields, scrapy-pagestorage, scrapy-querycleaner, scrapy-splitvariants, spidermon
+scrapy==2.2.1             # via -r requirements.in, scrapinghub-entrypoint-scrapy, scrapy-crawlera, scrapy-deltafetch, scrapy-dotpersistence, scrapy-magicfields, scrapy-pagestorage, scrapy-querycleaner, scrapy-splitvariants, spidermon
 sentry-sdk==0.16.3        # via spidermon
 service-identity==18.1.0  # via scrapy
 six==1.15.0               # via automat, cryptography, jsonschema, monkeylearn, parsel, protego, pyopenssl, pyrsistent, python-dateutil, retrying, scrapinghub, scrapy-crawlera, scrapy-querycleaner, slackclient, spidermon, w3lib, websocket-client
