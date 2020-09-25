@@ -14,7 +14,8 @@ The repository includes a set of branches to maintain different stack versions d
 
   - ``branch-1.0`` - Python 2 branch with Scrapy 1.0
   - ``branch-1.1`` - Python 2 branch with Scrapy 1.1
-  - ``branch-1.1-py3`` - Python 3 branch with Scrapy 1.1
+  - ``branch-1.8-py3`` - Python 3 branch with Scrapy 1.8
+  - ``branch-2.3`` - Python 3 branch with Scrapy 2.3 (since Scrapy 2.0 all branches are Python 3 only)
 
 
 Versioning
@@ -26,13 +27,13 @@ Versioning is done in the following manner:
 
 - major stack versions are marked with ``<scrapy version>[-py3]`` tag.
 
-  Note: Lack of ``-py3`` suffix means that a stack is built using Python 2.
+  Note: For stacks up to version 2.0, lack of ``-py3`` suffix means that the stack is built using Python 2.
 
   Examples:
 
     - tag ``1.0``
     - tag ``1.1``
-    - tag ``1.1-py3``
+    - tag ``1.8-py3``
 
 - each published version of the stack is marked with ``<scrapy version>[-py3]-<release date>`` tag
 
@@ -40,8 +41,9 @@ Versioning is done in the following manner:
 
   Examples:
 
-    - ``1.1-20160429`` refers to Python 2 based stack released at 2016-04-29 with ``Scrapy 1.1``
-    - ``1.1-py3-20160804`` refers to Python 3 based stack released at 2016-08-04 with ``Scrapy 1.1``
+    - ``1.1-20160429`` refers to Python 2 based stack released on 2016-04-29 with ``Scrapy 1.1``
+    - ``1.8-py3-20191203`` refers to Python 3 based stack released on 2019-12-03 with ``Scrapy 1.8``
+    - ``2.0-20200325`` refers to Python 3 based stack released on 2020-03-25 with ``Scrapy 2.0``
 
 - latest version of the stack is matched with a branch name without ``branch-`` prefix with ``-latest`` suffix
 
