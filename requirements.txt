@@ -19,7 +19,7 @@ cffi==1.14.4              # via cryptography
 chardet==3.0.4            # via aiohttp, requests
 colorama==0.4.3           # via awscli
 constantly==15.1.0        # via twisted
-cryptography==3.3.1       # via pyopenssl, scrapy, service-identity
+cryptography==3.3.2       # via -r requirements.in, pyopenssl, scrapy, service-identity
 cssselect==1.1.0          # via parsel, premailer, scrapy
 cssutils==1.0.2           # via premailer
 docutils==0.15.2          # via awscli
@@ -70,7 +70,7 @@ scrapy-splitvariants==1.1.0  # via -r requirements.in
 scrapy==2.4.1             # via -r requirements.in, scrapinghub-entrypoint-scrapy, scrapy-crawlera, scrapy-deltafetch, scrapy-dotpersistence, scrapy-magicfields, scrapy-pagestorage, scrapy-querycleaner, scrapy-splitvariants, spidermon
 sentry-sdk==0.19.5        # via spidermon
 service-identity==18.1.0  # via scrapy
-six==1.15.0               # via automat, cryptography, jsonschema, monkeylearn, parsel, protego, pyopenssl, python-dateutil, retrying, scrapinghub, scrapy-crawlera, scrapy-querycleaner, spidermon, w3lib
+six==1.15.0               # via automat, jsonschema, monkeylearn, parsel, protego, pyopenssl, python-dateutil, retrying, scrapinghub, scrapy-crawlera, scrapy-querycleaner, spidermon, w3lib
 slackclient==2.9.3        # via spidermon
 spidermon[monitoring,validation]==1.14.0  # via -r requirements.in
 strict-rfc3339==0.7       # via jsonschema
