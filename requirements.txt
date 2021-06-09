@@ -200,6 +200,8 @@ scrapy-splash==0.7.2
     # via -r requirements.in
 scrapy-splitvariants==1.1.0
     # via -r requirements.in
+scrapy-zyte-smartproxy==2.0.0
+    # via -r requirements.in
 scrapy==2.5.0
     # via
     #   -r requirements.in
@@ -211,6 +213,7 @@ scrapy==2.5.0
     #   scrapy-pagestorage
     #   scrapy-querycleaner
     #   scrapy-splitvariants
+    #   scrapy-zyte-smartproxy
     #   spidermon
 sentry-sdk==1.0.0
     # via spidermon
@@ -229,6 +232,8 @@ six==1.15.0
     #   scrapinghub
     #   scrapy-crawlera
     #   scrapy-querycleaner
+    #   scrapy-zyte-smartproxy
+    #   service-identity
     #   spidermon
     #   w3lib
 slackclient==2.9.3
@@ -257,6 +262,7 @@ w3lib==1.22.0
     #   parsel
     #   scrapy
     #   scrapy-crawlera
+    #   scrapy-zyte-smartproxy
 webcolors==1.11.1
     # via jsonschema
 yarl==1.6.3
