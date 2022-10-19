@@ -125,6 +125,8 @@ multidict==6.0.2
     # via
     #   aiohttp
     #   yarl
+packaging==21.3
+    # via scrapy
 parsel==1.6.0
     # via
     #   itemloaders
@@ -150,6 +152,8 @@ pydispatcher==2.0.5
     # via scrapy
 pyopenssl==22.0.0
     # via scrapy
+pyparsing==3.0.9
+    # via packaging
 pyrsistent==0.18.1
     # via jsonschema
 python-dateutil==2.8.2
@@ -193,7 +197,7 @@ scrapinghub-entrypoint-scrapy==0.13.0
     # via
     #   -r requirements.in
     #   scrapy-pagestorage
-scrapy==2.6.2
+scrapy==2.7.0
     # via
     #   -r requirements.in
     #   scrapinghub-entrypoint-scrapy
