@@ -16,7 +16,7 @@ jobs:
             docker build -t $image .
 
       - deploy:
-          name: Push Docker image to DockerHub
+          name: Push Docker image to DockerHub & Push image debug info to S3
           command: |
             set -x
             docker login -u "$DOCKERHUB_USERNAME" -p "$DOCKERHUB_PASSWORD"
@@ -26,7 +26,7 @@ jobs:
             [[ "${CIRCLE_BRANCH:0:7}" == "branch-" ]] && tags="$tags ${CIRCLE_BRANCH:7}-latest"
             [[ "${CIRCLE_BRANCH}" == "master" ]] && tags="$tags latest"
 
-            if [ -n "$tags" ]; then 
+            if [ -n "$tags" ]; then
               set -e
 
               for tag in $tags; do
